@@ -1,0 +1,63 @@
+/* selectors */
+.title {
+  color: red;
+}
+/* .subtitle {
+  color: blue;
+} */
+#contact-us {
+  color: green;
+}
+/* pseudo selectors */
+h2:hover {
+  color: red;
+}
+/* li:first-child {
+  color: steelblue;
+}
+li:last-child {
+  color: aqua;
+}
+li:nth-child(2) {
+  color: blueviolet;
+}
+li:only-child {
+  color: chartreuse;
+} */
+/* #google-link:link {
+  color: aqua;
+}
+#google-link:visited {
+  color: blue;
+} */
+/* advanced selector */
+/* a tag follows h2 tag */
+h2 + a {
+  color: red;
+}
+/* every button following textarea which button and textarea shares the sane parent */
+textarea ~ button {
+  color: pink;
+}
+/* child selector */
+ul > li {
+  color: coral;
+}
+/* descendent selector */
+ul li {
+  color: green;
+}
+/* attribute selector */
+h2[class="subtitle"] {
+  color: blue;
+}
+/* start:^,end:$,contain:* */
+img[src^="../img/"] {
+  border: 10px solid black;
+}
+h2[class~="article-subtitle"] {
+  background-color: gold;
+}
+/* h2[class|="article-subtitle"] {
+  background-color: gold;
+} */
